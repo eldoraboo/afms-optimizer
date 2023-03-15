@@ -1,0 +1,16 @@
+{
+  "title": "Changelog",
+  "description": "Changelog for AFMS Project",
+  "slug": "/category/changelog",
+  "permalink": "/docs/category/changelog",
+  "navigation": {
+    "previous": {
+      "title": "Error Handling",
+      "permalink": "/docs/further-improvements/error-handling"
+    },
+    "next": {
+      "title": "Front-End",
+      "permalink": "/docs/changelog/front-end"
+    }
+  }
+}

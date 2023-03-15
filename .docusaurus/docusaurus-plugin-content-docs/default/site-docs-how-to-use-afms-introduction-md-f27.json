@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/introduction",
+  "id": "how-to-use-afms/introduction",
+  "title": "Introduction",
+  "description": "",
+  "source": "@site/docs/how-to-use-afms/introduction.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/introduction",
+  "permalink": "/docs/how-to-use-afms/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Use AFMS",
+    "permalink": "/docs/category/how-to-use-afms"
+  },
+  "next": {
+    "title": "Widget",
+    "permalink": "/docs/how-to-use-afms/widget"
+  }
+}

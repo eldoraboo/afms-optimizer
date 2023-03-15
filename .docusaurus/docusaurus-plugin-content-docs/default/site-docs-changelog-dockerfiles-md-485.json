@@ -1,0 +1,27 @@
+{
+  "unversionedId": "changelog/dockerfiles",
+  "id": "changelog/dockerfiles",
+  "title": "Dockerfiles",
+  "description": "",
+  "source": "@site/docs/changelog/dockerfiles.md",
+  "sourceDirName": "changelog",
+  "slug": "/changelog/dockerfiles",
+  "permalink": "/docs/changelog/dockerfiles",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/changelog/dockerfiles.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Back-End",
+    "permalink": "/docs/changelog/back-end"
+  },
+  "next": {
+    "title": "MSO: Text Classification",
+    "permalink": "/docs/category/mso-text-classification"
+  }
+}

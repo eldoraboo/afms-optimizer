@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkafms_optimizer=self.webpackChunkafms_optimizer||[]).push([[2483],{2935:t=>{t.exports=JSON.parse('{"title":"Quickstart","description":"Quickstart guide for the AFMS Project.","slug":"/category/quickstart","permalink":"/docs/category/quickstart","navigation":{"next":{"title":"Background","permalink":"/docs/quickstart/background"}}}')}}]);

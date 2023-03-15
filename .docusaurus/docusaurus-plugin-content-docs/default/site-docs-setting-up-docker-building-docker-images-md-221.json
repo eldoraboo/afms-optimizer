@@ -1,0 +1,27 @@
+{
+  "unversionedId": "setting-up-docker/building-docker-images",
+  "id": "setting-up-docker/building-docker-images",
+  "title": "Building Docker Images",
+  "description": "Once you have created the Dockerfiles, you can build the Docker images.",
+  "source": "@site/docs/setting-up-docker/building-docker-images.md",
+  "sourceDirName": "setting-up-docker",
+  "slug": "/setting-up-docker/building-docker-images",
+  "permalink": "/docs/setting-up-docker/building-docker-images",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setting-up-docker/building-docker-images.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating Dockerfiles",
+    "permalink": "/docs/setting-up-docker/creating-dockerfiles"
+  },
+  "next": {
+    "title": "Pushing to DockerHub",
+    "permalink": "/docs/setting-up-docker/pushing-to-dockerhub"
+  }
+}

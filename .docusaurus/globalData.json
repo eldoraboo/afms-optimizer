@@ -1,0 +1,188 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "quickstart/background",
+          "docs": [
+            {
+              "id": "added-features/downloading-result-files",
+              "path": "/docs/added-features/downloading-result-files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "changelog/back-end",
+              "path": "/docs/changelog/back-end",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "changelog/dockerfiles",
+              "path": "/docs/changelog/dockerfiles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "changelog/front-end",
+              "path": "/docs/changelog/front-end",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "further-improvements/error-handling",
+              "path": "/docs/further-improvements/error-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "further-improvements/vulnerabilities",
+              "path": "/docs/further-improvements/vulnerabilities",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/compare-scenarios",
+              "path": "/docs/how-to-use-afms/compare-scenarios",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/example-use-case",
+              "path": "/docs/how-to-use-afms/example-use-case",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/introduction",
+              "path": "/docs/how-to-use-afms/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/load-run-scenario",
+              "path": "/docs/how-to-use-afms/load-run-scenario",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/widget",
+              "path": "/docs/how-to-use-afms/widget",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mso/data-extraction",
+              "path": "/docs/mso/data-extraction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mso/introduction",
+              "path": "/docs/mso/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mso/model-setup",
+              "path": "/docs/mso/model-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mso/sandbox",
+              "path": "/docs/mso/sandbox",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mso/source-code",
+              "path": "/docs/mso/source-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/background",
+              "path": "/docs/quickstart/background",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/docker-setup",
+              "path": "/docs/quickstart/docker-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart/local-machine-setup",
+              "path": "/docs/quickstart/local-machine-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-docker/building-docker-images",
+              "path": "/docs/setting-up-docker/building-docker-images",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-docker/creating-dockerfiles",
+              "path": "/docs/setting-up-docker/creating-dockerfiles",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-docker/deploying-containers",
+              "path": "/docs/setting-up-docker/deploying-containers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-docker/exporting-docker-images",
+              "path": "/docs/setting-up-docker/exporting-docker-images",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-docker/pulling-from-dockerhub",
+              "path": "/docs/setting-up-docker/pulling-from-dockerhub",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setting-up-docker/pushing-to-dockerhub",
+              "path": "/docs/setting-up-docker/pushing-to-dockerhub",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/quickstart",
+              "path": "/docs/category/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/setting-up-docker",
+              "path": "/docs/category/setting-up-docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-afms",
+              "path": "/docs/category/how-to-use-afms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/added-features",
+              "path": "/docs/category/added-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/further-improvements",
+              "path": "/docs/category/further-improvements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/changelog",
+              "path": "/docs/category/changelog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/mso-text-classification",
+              "path": "/docs/category/mso-text-classification",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/category/quickstart",
+                "label": "Quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

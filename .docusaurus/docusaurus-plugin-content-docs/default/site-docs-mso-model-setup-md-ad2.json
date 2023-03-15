@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mso/model-setup",
+  "id": "mso/model-setup",
+  "title": "Model Setup",
+  "description": "",
+  "source": "@site/docs/mso/model-setup.md",
+  "sourceDirName": "mso",
+  "slug": "/mso/model-setup",
+  "permalink": "/docs/mso/model-setup",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mso/model-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Extraction",
+    "permalink": "/docs/mso/data-extraction"
+  },
+  "next": {
+    "title": "Complete Source Code",
+    "permalink": "/docs/mso/source-code"
+  }
+}

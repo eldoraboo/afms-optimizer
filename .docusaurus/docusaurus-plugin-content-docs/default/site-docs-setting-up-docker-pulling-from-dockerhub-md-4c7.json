@@ -1,0 +1,27 @@
+{
+  "unversionedId": "setting-up-docker/pulling-from-dockerhub",
+  "id": "setting-up-docker/pulling-from-dockerhub",
+  "title": "Pulling from DockerHub",
+  "description": "Pulling Latest Images",
+  "source": "@site/docs/setting-up-docker/pulling-from-dockerhub.md",
+  "sourceDirName": "setting-up-docker",
+  "slug": "/setting-up-docker/pulling-from-dockerhub",
+  "permalink": "/docs/setting-up-docker/pulling-from-dockerhub",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setting-up-docker/pulling-from-dockerhub.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exporting Docker Images",
+    "permalink": "/docs/setting-up-docker/exporting-docker-images"
+  },
+  "next": {
+    "title": "Deploying Containers",
+    "permalink": "/docs/setting-up-docker/deploying-containers"
+  }
+}

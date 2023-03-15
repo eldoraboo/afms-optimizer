@@ -1,0 +1,44 @@
+{
+  "blogPosts": [
+    {
+      "id": "front-end",
+      "metadata": {
+        "permalink": "/blog/front-end",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-03-15-front-end.md",
+        "source": "@site/blog/2023-03-15-front-end.md",
+        "title": "Front-End",
+        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+        "date": "2023-03-15T00:00:00.000Z",
+        "formattedDate": "March 15, 2023",
+        "tags": [
+          {
+            "label": "front-end",
+            "permalink": "/blog/tags/front-end"
+          }
+        ],
+        "readingTime": 0.175,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eldora Boo",
+            "title": "Data Engineer of AFMS Project",
+            "url": "https://github.com/eldoraboo",
+            "imageURL": "https://github.com/eldoraboo.png",
+            "key": "eldoraboo"
+          }
+        ],
+        "frontMatter": {
+          "slug": "front-end",
+          "title": "Front-End",
+          "authors": [
+            "eldoraboo"
+          ],
+          "tags": [
+            "front-end"
+          ]
+        }
+      },
+      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+    }
+  ]
+}

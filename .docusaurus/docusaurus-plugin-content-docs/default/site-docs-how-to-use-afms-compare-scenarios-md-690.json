@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/compare-scenarios",
+  "id": "how-to-use-afms/compare-scenarios",
+  "title": "Compare Scenarios",
+  "description": "",
+  "source": "@site/docs/how-to-use-afms/compare-scenarios.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/compare-scenarios",
+  "permalink": "/docs/how-to-use-afms/compare-scenarios",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/compare-scenarios.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Load & Run Scenario",
+    "permalink": "/docs/how-to-use-afms/load-run-scenario"
+  },
+  "next": {
+    "title": "Example Use Case",
+    "permalink": "/docs/how-to-use-afms/example-use-case"
+  }
+}

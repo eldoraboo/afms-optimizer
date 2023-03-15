@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/example-use-case",
+  "id": "how-to-use-afms/example-use-case",
+  "title": "Example Use Case",
+  "description": "",
+  "source": "@site/docs/how-to-use-afms/example-use-case.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/example-use-case",
+  "permalink": "/docs/how-to-use-afms/example-use-case",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/example-use-case.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compare Scenarios",
+    "permalink": "/docs/how-to-use-afms/compare-scenarios"
+  },
+  "next": {
+    "title": "Added Features",
+    "permalink": "/docs/category/added-features"
+  }
+}

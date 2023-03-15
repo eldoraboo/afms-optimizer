@@ -1,0 +1,16 @@
+{
+  "title": "Further Improvements",
+  "description": "Possible further improvements for the AFMS Project.",
+  "slug": "/category/further-improvements",
+  "permalink": "/docs/category/further-improvements",
+  "navigation": {
+    "previous": {
+      "title": "Downloading Result Files",
+      "permalink": "/docs/added-features/downloading-result-files"
+    },
+    "next": {
+      "title": "Vulnerabilities",
+      "permalink": "/docs/further-improvements/vulnerabilities"
+    }
+  }
+}

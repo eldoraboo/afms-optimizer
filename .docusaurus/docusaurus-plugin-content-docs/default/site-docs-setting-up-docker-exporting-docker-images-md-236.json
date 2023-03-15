@@ -1,0 +1,27 @@
+{
+  "unversionedId": "setting-up-docker/exporting-docker-images",
+  "id": "setting-up-docker/exporting-docker-images",
+  "title": "Exporting Docker Images",
+  "description": "Retrieve Image Name",
+  "source": "@site/docs/setting-up-docker/exporting-docker-images.md",
+  "sourceDirName": "setting-up-docker",
+  "slug": "/setting-up-docker/exporting-docker-images",
+  "permalink": "/docs/setting-up-docker/exporting-docker-images",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setting-up-docker/exporting-docker-images.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pushing to DockerHub",
+    "permalink": "/docs/setting-up-docker/pushing-to-dockerhub"
+  },
+  "next": {
+    "title": "Pulling from DockerHub",
+    "permalink": "/docs/setting-up-docker/pulling-from-dockerhub"
+  }
+}

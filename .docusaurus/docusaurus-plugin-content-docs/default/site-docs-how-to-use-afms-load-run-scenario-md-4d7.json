@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/load-run-scenario",
+  "id": "how-to-use-afms/load-run-scenario",
+  "title": "Load & Run Scenario",
+  "description": "",
+  "source": "@site/docs/how-to-use-afms/load-run-scenario.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/load-run-scenario",
+  "permalink": "/docs/how-to-use-afms/load-run-scenario",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/load-run-scenario.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Widget",
+    "permalink": "/docs/how-to-use-afms/widget"
+  },
+  "next": {
+    "title": "Compare Scenarios",
+    "permalink": "/docs/how-to-use-afms/compare-scenarios"
+  }
+}

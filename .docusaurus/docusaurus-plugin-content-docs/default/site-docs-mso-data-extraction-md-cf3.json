@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mso/data-extraction",
+  "id": "mso/data-extraction",
+  "title": "Data Extraction",
+  "description": "",
+  "source": "@site/docs/mso/data-extraction.md",
+  "sourceDirName": "mso",
+  "slug": "/mso/data-extraction",
+  "permalink": "/docs/mso/data-extraction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mso/data-extraction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sandbox",
+    "permalink": "/docs/mso/sandbox"
+  },
+  "next": {
+    "title": "Model Setup",
+    "permalink": "/docs/mso/model-setup"
+  }
+}

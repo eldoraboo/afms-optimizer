@@ -1,0 +1,16 @@
+{
+  "title": "How to Use AFMS",
+  "description": "Features added to the existing AFMS Project.",
+  "slug": "/category/how-to-use-afms",
+  "permalink": "/docs/category/how-to-use-afms",
+  "navigation": {
+    "previous": {
+      "title": "Deploying Containers",
+      "permalink": "/docs/setting-up-docker/deploying-containers"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/how-to-use-afms/introduction"
+    }
+  }
+}

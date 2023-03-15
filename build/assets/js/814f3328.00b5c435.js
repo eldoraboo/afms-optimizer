@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkafms_optimizer=self.webpackChunkafms_optimizer||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Front-End","permalink":"/blog/front-end"}]}')}}]);

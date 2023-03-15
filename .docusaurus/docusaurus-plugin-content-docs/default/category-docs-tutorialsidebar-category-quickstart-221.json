@@ -1,0 +1,12 @@
+{
+  "title": "Quickstart",
+  "description": "Quickstart guide for the AFMS Project.",
+  "slug": "/category/quickstart",
+  "permalink": "/docs/category/quickstart",
+  "navigation": {
+    "next": {
+      "title": "Background",
+      "permalink": "/docs/quickstart/background"
+    }
+  }
+}
