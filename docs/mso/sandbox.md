@@ -13,6 +13,23 @@ To use the demo, simply follow these steps:
 3. Click the **"Submit"** button to see the **classification results**. The model will return a **list of labels** along with their **respective confidence scores**.
 4. (optional) Tick **"Allow multiple true classes"** to calculate each class independently.
 
+export const Highlight = ({children, color, linkUrl}) => (
+  <a
+    href="https://eldoraboo-facebook-bart-large-mnli.hf.space"
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      textDecoration: 'none',
+      cursor: 'pointer',
+    }}>
+    {children}
+  </a>
+);
+
+**Link to Demo**: https://eldoraboo-facebook-bart-large-mnli.hf.space
+
 <iframe
 	src="https://eldoraboo-facebook-bart-large-mnli.hf.space"
 	frameborder="0"
