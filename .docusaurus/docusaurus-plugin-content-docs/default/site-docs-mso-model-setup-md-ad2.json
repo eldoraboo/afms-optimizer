@@ -21,7 +21,7 @@
     "permalink": "/docs/mso/data-extraction"
   },
   "next": {
-    "title": "Complete Source Code",
-    "permalink": "/docs/mso/source-code"
+    "title": "Implementing Few-Shot",
+    "permalink": "/docs/mso/few-shot"
   }
 }

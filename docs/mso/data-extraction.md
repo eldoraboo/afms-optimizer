@@ -44,5 +44,4 @@ feedback = parse("Copy of parcel_sorting_feedback_2020_2022_updated.xlsx", "parc
 
 number = len(feedback)
 categories_count = {category: 0 for category in categories}
-count = 0
 ```

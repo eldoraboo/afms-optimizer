@@ -34,7 +34,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'eb7'),
+    component: ComponentCreator('/docs', '14f'),
     routes: [
       {
         path: '/docs/added-features/downloading-result-files',
@@ -151,8 +151,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/mso/source-code',
-        component: ComponentCreator('/docs/mso/source-code', '291'),
+        path: '/docs/mso/source-codes',
+        component: ComponentCreator('/docs/mso/source-codes', '626'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Implementing Few-Shot
@@ -65,7 +65,7 @@ def few_shot(doc, csv_file):
 To use this script, you need to have a **text input** (e.g., `feedback`) and a CSV file containing the **training data**. You can then call the `few_shot` function to process the **text input** and get the **classification results**.
 
 ```py
-few_shot("feedback", os.path.join(os.path.dirname(__file__),"files/train1.csv"))
+few_shot("feedback", os.path.join(os.path.dirname(__file__),"files/train.csv"))
 ```
 
 ## Format of Training Data

@@ -76,8 +76,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "mso/source-code",
-              "path": "/docs/mso/source-code",
+              "id": "mso/source-codes",
+              "path": "/docs/mso/source-codes",
               "sidebar": "tutorialSidebar"
             },
             {

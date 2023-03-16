@@ -188,15 +188,15 @@
           },
           {
             "type": "link",
-            "label": "Complete Source Code",
-            "href": "/docs/mso/source-code",
-            "docId": "mso/source-code"
-          },
-          {
-            "type": "link",
             "label": "Implementing Few-Shot",
             "href": "/docs/mso/few-shot",
             "docId": "mso/few-shot"
+          },
+          {
+            "type": "link",
+            "label": "Complete Source Codes",
+            "href": "/docs/mso/source-codes",
+            "docId": "mso/source-codes"
           }
         ],
         "href": "/docs/category/mso-text-classification"
@@ -282,10 +282,10 @@
       "description": "Explore the power of zero-shot classification with this interactive demo using the Facebook BART-large MNLI model, hosted on a Gradio space. This user-friendly interface allows you to input your own text and candidate labels to see how the model classifies the text based on your provided categories. The model is highly versatile and can be used for a wide range of applications, including topic categorization, sentiment analysis, and more.",
       "sidebar": "tutorialSidebar"
     },
-    "mso/source-code": {
-      "id": "mso/source-code",
-      "title": "Complete Source Code",
-      "description": "",
+    "mso/source-codes": {
+      "id": "mso/source-codes",
+      "title": "Complete Source Codes",
+      "description": "Zero-Shot",
       "sidebar": "tutorialSidebar"
     },
     "quickstart/background": {
