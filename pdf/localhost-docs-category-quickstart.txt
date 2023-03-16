@@ -29,3 +29,4 @@ http://localhost:3000/docs/mso/sandbox
 http://localhost:3000/docs/mso/data-extraction
 http://localhost:3000/docs/mso/model-setup
 http://localhost:3000/docs/mso/source-code
+http://localhost:3000/docs/mso/few-shot
