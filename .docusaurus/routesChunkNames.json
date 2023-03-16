@@ -1,5 +1,5 @@
 {
-  "/blog-def": {
+  "/blog-ea7": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "20a4562d"
@@ -7,7 +7,19 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "5b91847c"
+        "content": "6736418a"
+      },
+      {
+        "content": "8f6bcfc8"
+      },
+      {
+        "content": "fe5ea1fa"
+      },
+      {
+        "content": "ef42a5bc"
+      },
+      {
+        "content": "5e2a477d"
       }
     ],
     "metadata": "b2b675dd"
@@ -19,13 +31,29 @@
     },
     "archive": "b2f554cd"
   },
-  "/blog/front-end-e5b": {
+  "/blog/set-up-backend-server-python-on-docker-94f": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "20a4562d"
     },
     "sidebar": "814f3328",
-    "content": "1cf7f71f"
+    "content": "9c3e2d67"
+  },
+  "/blog/set-up-frontend-client-java-script-on-docker-136": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "20a4562d"
+    },
+    "sidebar": "814f3328",
+    "content": "78358362"
+  },
+  "/blog/setting-up-docker-to-connect-client-and-server-941": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "20a4562d"
+    },
+    "sidebar": "814f3328",
+    "content": "88ea4673"
   },
   "/blog/tags-8d1": {
     "__comp": "01a85c17",
@@ -35,7 +63,7 @@
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/front-end-92e": {
+  "/blog/tags/tutorial-792": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "20a4562d"
@@ -43,11 +71,39 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "5b91847c"
+        "content": "6736418a"
+      },
+      {
+        "content": "8f6bcfc8"
+      },
+      {
+        "content": "fe5ea1fa"
+      },
+      {
+        "content": "ef42a5bc"
+      },
+      {
+        "content": "5e2a477d"
       }
     ],
-    "tag": "cb363577",
-    "listMetadata": "730727ed"
+    "tag": "77e23114",
+    "listMetadata": "369bd8f8"
+  },
+  "/blog/using-flask-to-zip-and-download-files-part-1-70a": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "20a4562d"
+    },
+    "sidebar": "814f3328",
+    "content": "18680fc3"
+  },
+  "/blog/using-flask-to-zip-and-download-files-part-2-f6b": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "20a4562d"
+    },
+    "sidebar": "814f3328",
+    "content": "5f547a8e"
   },
   "/markdown-page-df8": {
     "__comp": "1f391b9e",

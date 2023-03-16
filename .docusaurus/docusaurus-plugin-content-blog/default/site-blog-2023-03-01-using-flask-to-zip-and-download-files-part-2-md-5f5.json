@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/using-flask-to-zip-and-download-files-part-2",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-03-01-using-flask-to-zip-and-download-files-part-2.md",
+  "source": "@site/blog/2023-03-01-using-flask-to-zip-and-download-files-part-2.md",
+  "title": "Using Flask to Zip and Download Files (Part 2)",
+  "description": "Passing apiUrl as a prop",
+  "date": "2023-03-01T00:00:00.000Z",
+  "formattedDate": "March 1, 2023",
+  "tags": [
+    {
+      "label": "tutorial",
+      "permalink": "/blog/tags/tutorial"
+    }
+  ],
+  "readingTime": 1.07,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Eldora Boo",
+      "title": "Data Engineer of AFMS Project",
+      "url": "https://github.com/eldoraboo",
+      "imageURL": "https://github.com/eldoraboo.png",
+      "key": "eldoraboo"
+    }
+  ],
+  "frontMatter": {
+    "slug": "using-flask-to-zip-and-download-files-part-2",
+    "title": "Using Flask to Zip and Download Files (Part 2)",
+    "authors": [
+      "eldoraboo"
+    ],
+    "tags": [
+      "tutorial"
+    ]
+  },
+  "prevItem": {
+    "title": "Using Flask to Zip and Download Files (Part 1)",
+    "permalink": "/blog/using-flask-to-zip-and-download-files-part-1"
+  },
+  "nextItem": {
+    "title": "Setting Up Docker To Connect Client and Server",
+    "permalink": "/blog/setting-up-docker-to-connect-client-and-server"
+  }
+}

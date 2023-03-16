@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/set-up-backend-server-python-on-docker",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02-08-set-up-backend-server-python-on-docker copy.md",
+  "source": "@site/blog/2023-02-08-set-up-backend-server-python-on-docker copy.md",
+  "title": "Set Up Backend Server (Python) on Docker",
+  "description": "Prerequisities",
+  "date": "2023-02-08T00:00:00.000Z",
+  "formattedDate": "February 8, 2023",
+  "tags": [
+    {
+      "label": "tutorial",
+      "permalink": "/blog/tags/tutorial"
+    }
+  ],
+  "readingTime": 2.98,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Eldora Boo",
+      "title": "Data Engineer of AFMS Project",
+      "url": "https://github.com/eldoraboo",
+      "imageURL": "https://github.com/eldoraboo.png",
+      "key": "eldoraboo"
+    }
+  ],
+  "frontMatter": {
+    "slug": "set-up-backend-server-python-on-docker",
+    "title": "Set Up Backend Server (Python) on Docker",
+    "authors": [
+      "eldoraboo"
+    ],
+    "tags": [
+      "tutorial"
+    ]
+  },
+  "prevItem": {
+    "title": "Setting Up Docker To Connect Client and Server",
+    "permalink": "/blog/setting-up-docker-to-connect-client-and-server"
+  },
+  "nextItem": {
+    "title": "Set Up Backend Server (Python) on Docker",
+    "permalink": "/blog/set-up-backend-server-python-on-docker"
+  }
+}

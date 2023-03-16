@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'def'),
+    component: ComponentCreator('/blog', 'ea7'),
     exact: true
   },
   {
@@ -13,8 +13,18 @@ export default [
     exact: true
   },
   {
-    path: '/blog/front-end',
-    component: ComponentCreator('/blog/front-end', 'e5b'),
+    path: '/blog/set-up-backend-server-python-on-docker',
+    component: ComponentCreator('/blog/set-up-backend-server-python-on-docker', '94f'),
+    exact: true
+  },
+  {
+    path: '/blog/set-up-frontend-client-java-script-on-docker',
+    component: ComponentCreator('/blog/set-up-frontend-client-java-script-on-docker', '136'),
+    exact: true
+  },
+  {
+    path: '/blog/setting-up-docker-to-connect-client-and-server',
+    component: ComponentCreator('/blog/setting-up-docker-to-connect-client-and-server', '941'),
     exact: true
   },
   {
@@ -23,8 +33,18 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/front-end',
-    component: ComponentCreator('/blog/tags/front-end', '92e'),
+    path: '/blog/tags/tutorial',
+    component: ComponentCreator('/blog/tags/tutorial', '792'),
+    exact: true
+  },
+  {
+    path: '/blog/using-flask-to-zip-and-download-files-part-1',
+    component: ComponentCreator('/blog/using-flask-to-zip-and-download-files-part-1', '70a'),
+    exact: true
+  },
+  {
+    path: '/blog/using-flask-to-zip-and-download-files-part-2',
+    component: ComponentCreator('/blog/using-flask-to-zip-and-download-files-part-2', 'f6b'),
     exact: true
   },
   {

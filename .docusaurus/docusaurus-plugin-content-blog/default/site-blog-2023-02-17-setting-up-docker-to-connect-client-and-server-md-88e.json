@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/setting-up-docker-to-connect-client-and-server",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02-17-setting-up-docker-to-connect-client-and-server.md",
+  "source": "@site/blog/2023-02-17-setting-up-docker-to-connect-client-and-server.md",
+  "title": "Setting Up Docker To Connect Client and Server",
+  "description": "Prerequisities",
+  "date": "2023-02-17T00:00:00.000Z",
+  "formattedDate": "February 17, 2023",
+  "tags": [
+    {
+      "label": "tutorial",
+      "permalink": "/blog/tags/tutorial"
+    }
+  ],
+  "readingTime": 2.825,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Eldora Boo",
+      "title": "Data Engineer of AFMS Project",
+      "url": "https://github.com/eldoraboo",
+      "imageURL": "https://github.com/eldoraboo.png",
+      "key": "eldoraboo"
+    }
+  ],
+  "frontMatter": {
+    "slug": "setting-up-docker-to-connect-client-and-server",
+    "title": "Setting Up Docker To Connect Client and Server",
+    "authors": [
+      "eldoraboo"
+    ],
+    "tags": [
+      "tutorial"
+    ]
+  },
+  "prevItem": {
+    "title": "Using Flask to Zip and Download Files (Part 2)",
+    "permalink": "/blog/using-flask-to-zip-and-download-files-part-2"
+  },
+  "nextItem": {
+    "title": "Set Up Backend Server (Python) on Docker",
+    "permalink": "/blog/set-up-backend-server-python-on-docker"
+  }
+}

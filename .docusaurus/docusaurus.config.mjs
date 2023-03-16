@@ -40,7 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/hubs-connect.png",
     "navbar": {
       "title": "AFMS Project",
       "logo": {

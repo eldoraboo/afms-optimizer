@@ -1,22 +1,22 @@
 {
   "blogPosts": [
     {
-      "id": "front-end",
+      "id": "using-flask-to-zip-and-download-files-part-1",
       "metadata": {
-        "permalink": "/blog/front-end",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-03-15-front-end.md",
-        "source": "@site/blog/2023-03-15-front-end.md",
-        "title": "Front-End",
-        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-        "date": "2023-03-15T00:00:00.000Z",
-        "formattedDate": "March 15, 2023",
+        "permalink": "/blog/using-flask-to-zip-and-download-files-part-1",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-03-01-using-flask-to-zip-and-download-files-part-1.md",
+        "source": "@site/blog/2023-03-01-using-flask-to-zip-and-download-files-part-1.md",
+        "title": "Using Flask to Zip and Download Files (Part 1)",
+        "description": "Downloading Packages",
+        "date": "2023-03-01T00:00:00.000Z",
+        "formattedDate": "March 1, 2023",
         "tags": [
           {
-            "label": "front-end",
-            "permalink": "/blog/tags/front-end"
+            "label": "tutorial",
+            "permalink": "/blog/tags/tutorial"
           }
         ],
-        "readingTime": 0.175,
+        "readingTime": 2.005,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -28,17 +28,209 @@
           }
         ],
         "frontMatter": {
-          "slug": "front-end",
-          "title": "Front-End",
+          "slug": "using-flask-to-zip-and-download-files-part-1",
+          "title": "Using Flask to Zip and Download Files (Part 1)",
           "authors": [
             "eldoraboo"
           ],
           "tags": [
-            "front-end"
+            "tutorial"
           ]
+        },
+        "nextItem": {
+          "title": "Using Flask to Zip and Download Files (Part 2)",
+          "permalink": "/blog/using-flask-to-zip-and-download-files-part-2"
         }
       },
-      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+      "content": "### Downloading Packages\n\nTo begin, we will import the necessary modules. We will use the os module to navigate the file system, zipfile to create our zip file, BytesIO to store our zip file in memory, Flask to create our web application, and send_file to send our zip file to the user.\n\n```py title=\"app.py\" withLineNumbers\nimport os\nimport zipfile\nfrom io import BytesIO\nfrom flask import Flask, jsonify, send_file, request\nfrom flask_cors import CORS\n```\n\n### Enabling CORS\n\nNext, we will create our Flask application and enable Cross-Origin Resource Sharing (CORS). CORS is a mechanism that allows many resources (e.g., fonts, JavaScript, etc.) on a web page to be requested from another domain outside the domain from which the resource originated.\n\n```py title=\"app.py\" withLineNumbers\napp = Flask(__name__)\nCORS(app)\n```\n\n### Creating a route for file download\n\nWe will create a route for our file download service. The route will expect a parameter called 'fileName', which is the name of the file that we want to download. We will then use os.walk to iterate through all the files and directories in the file path and add them to our zip file using zipfile.ZipFile.write. Finally, we will use send_file to send our zip file to the user.\n\n```py title=\"app.py\" withLineNumbers\n@app.route('/file')\ndef zipped_data():\n    fileName = request.args.get('fileName')\n    file_path = '{}/'.format(fileName)\n    fileName = \"{}.zip\".format(fileName)\n    memory_file = BytesIO()\n    with zipfile.ZipFile(memory_file, 'w', zipfile.ZIP_DEFLATED) as zipf:\n        for root, dirs, files in os.walk(file_path):\n            for file in files:\n                zipf.write(os.path.join(root, file))\n    memory_file.seek(0)\n    return send_file(memory_file,\n                     attachment_filename=fileName,\n                     as_attachment=True)\n```\n\n### Add rendering and caching\n\nWe will add a function using the Flask after_request decorator to add headers to our response. These headers will ensure that the user's browser renders the web page correctly and caches the page for 10 minutes.\n\n```py title=\"app.py\" withLineNumbers\n@app.after_request\ndef add_header(response):\n    \"\"\"\n    Add headers to both force latest IE rendering engine or Chrome Frame,\n    and also to cache the rendered page for 10 minutes.\n    \"\"\"\n    response.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'\n    response.headers['Cache-Control'] = 'public, max-age=0'\n    return response\n```\n\n### Running the application\n\n```py title=\"app.py\" withLineNumbers\napp.run(debug=True,host=\"0.0.0.0\",port=8000)\n```\n\n### Accessing the GET request\n\nNow that we have our Flask application set up, we can use it to zip and download files. To use the service, we will send a GET request to our endpoint.\n\n```shell Terminal\nhttp://localhost:8000/file\n```\n\nThe user's browser will prompt them to download the zip file. Read the next article to see how we link this to frontend interface."
+    },
+    {
+      "id": "using-flask-to-zip-and-download-files-part-2",
+      "metadata": {
+        "permalink": "/blog/using-flask-to-zip-and-download-files-part-2",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-03-01-using-flask-to-zip-and-download-files-part-2.md",
+        "source": "@site/blog/2023-03-01-using-flask-to-zip-and-download-files-part-2.md",
+        "title": "Using Flask to Zip and Download Files (Part 2)",
+        "description": "Passing apiUrl as a prop",
+        "date": "2023-03-01T00:00:00.000Z",
+        "formattedDate": "March 1, 2023",
+        "tags": [
+          {
+            "label": "tutorial",
+            "permalink": "/blog/tags/tutorial"
+          }
+        ],
+        "readingTime": 1.07,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eldora Boo",
+            "title": "Data Engineer of AFMS Project",
+            "url": "https://github.com/eldoraboo",
+            "imageURL": "https://github.com/eldoraboo.png",
+            "key": "eldoraboo"
+          }
+        ],
+        "frontMatter": {
+          "slug": "using-flask-to-zip-and-download-files-part-2",
+          "title": "Using Flask to Zip and Download Files (Part 2)",
+          "authors": [
+            "eldoraboo"
+          ],
+          "tags": [
+            "tutorial"
+          ]
+        },
+        "prevItem": {
+          "title": "Using Flask to Zip and Download Files (Part 1)",
+          "permalink": "/blog/using-flask-to-zip-and-download-files-part-1"
+        },
+        "nextItem": {
+          "title": "Setting Up Docker To Connect Client and Server",
+          "permalink": "/blog/setting-up-docker-to-connect-client-and-server"
+        }
+      },
+      "content": "### Passing apiUrl as a prop\n\nTo begin, we will pass the apiUrl as a prop, it is defined as ```/file``` in the previous post. We also set a variable to keep track of the filename.\n\n```js title=\"App.js\" withLineNumbers\nimport * as React from \"react\";\n\nfunction App({ apiUrl }) {\n    const [fileName, setFileName] = React.useState(\"\");\n}\nexport default App;\n````\n\n### Download Action\n\nWith both ```apiUrl``` and ```fileName``` we are able to send a request to the Flask API.\n\n```js title=\"App.js\" withLineNumbers\nfunction App({ apiUrl }) {\n    const [fileName, setFileName] = React.useState(\"\");\n    React.useEffect(() => {\n        const downloadButton = document.getElementById(\"downloadButton\");\n        if (downloadButton) {\n        downloadButton.addEventListener(\"click\", () => {\n            fetch(`${apiUrl}/file?fileName=${fileName}`)\n                .then((response) => response.blob())\n                .then((blob) => {\n                    const url = window.URL.createObjectURL(blob);\n                    const a = document.createElement(\"a\");\n                    a.href = url;\n                    a.download = `${fileName}.zip`;\n                    a.click();\n                })\n                .catch((error) => {\n                    console.error(error);\n                });\n            });\n        }\n    }, [apiUrl, fileName]);\n}\nexport default App;\n````\n\n### Frontend UI for TextField and Button\n\nTo retrieve our file name and activate the download. We will make a text field and button for the frontend.\n\n```js title=\"App.js\" withLineNumbers\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <Stack direction=\"row\" spacing={2}>\n          <TextField\n          id=\"filled-basic\"\n          label=\"File Name\"\n          variant=\"filled\"\n          value={fileName}\n          onChange={(e) => setFileName(e.target.value)}\n        />\n          <Button variant=\"outlined\" id=\"downloadButton\">\n          Download Data\n          </Button>\n        </Stack>\n        {userData && <UserData data={userData} />}\n      </header>\n    </div>\n  );\n````"
+    },
+    {
+      "id": "setting-up-docker-to-connect-client-and-server",
+      "metadata": {
+        "permalink": "/blog/setting-up-docker-to-connect-client-and-server",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02-17-setting-up-docker-to-connect-client-and-server.md",
+        "source": "@site/blog/2023-02-17-setting-up-docker-to-connect-client-and-server.md",
+        "title": "Setting Up Docker To Connect Client and Server",
+        "description": "Prerequisities",
+        "date": "2023-02-17T00:00:00.000Z",
+        "formattedDate": "February 17, 2023",
+        "tags": [
+          {
+            "label": "tutorial",
+            "permalink": "/blog/tags/tutorial"
+          }
+        ],
+        "readingTime": 2.825,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eldora Boo",
+            "title": "Data Engineer of AFMS Project",
+            "url": "https://github.com/eldoraboo",
+            "imageURL": "https://github.com/eldoraboo.png",
+            "key": "eldoraboo"
+          }
+        ],
+        "frontMatter": {
+          "slug": "setting-up-docker-to-connect-client-and-server",
+          "title": "Setting Up Docker To Connect Client and Server",
+          "authors": [
+            "eldoraboo"
+          ],
+          "tags": [
+            "tutorial"
+          ]
+        },
+        "prevItem": {
+          "title": "Using Flask to Zip and Download Files (Part 2)",
+          "permalink": "/blog/using-flask-to-zip-and-download-files-part-2"
+        },
+        "nextItem": {
+          "title": "Set Up Backend Server (Python) on Docker",
+          "permalink": "/blog/set-up-backend-server-python-on-docker"
+        }
+      },
+      "content": "### Prerequisities\n\nThis article assumes we already have these two Dockerfiles in their respective folders.\n\n```shell title=\"afms > Dockerfile\" withLineNumbers\n# Stage 1 - the build process\nFROM node:12-alpine as build-deps\nWORKDIR /usr/src/app\nCOPY package.json yarn.lock ./\nRUN apk add --no-cache autoconf\nRUN yarn\nCOPY . ./\nRUN yarn build\n\n# Stage 2 - the production environment\nFROM nginx:1.21-alpine\nCOPY --from=build-deps /usr/src/app/dist /usr/share/nginx/html\nEXPOSE 443\nCMD [\"nginx\", \"-g\", \"daemon off;\"]\n```\n\n<br/>\n\n```shell title=\"optimiser > Dockerfile\" withLineNumbers\n# Stage 1 - installing dependencies\nFROM continuumio/miniconda3:latest\nWORKDIR /app\nCOPY *.py .\nCOPY requirements.txt .\nRUN pip install -r requirements.txt\nRUN apt-get update && apt-get install -y \\\n    build-essential \\\n    libgl1-mesa-glx \\\n    libglib2.0-0 \\\n    && apt-get clean \\\n    && rm -rf /var/lib/apt/lists/*\n\n# Stage 2 - conda & pip set up\nRUN pip install flask flask_cors\nCOPY environment.yml .\nRUN conda config --set channel_priority strict\nRUN conda create -n opt python=3.9\nRUN /bin/bash -c \"source activate opt\"\nRUN conda install -c conda-forge scip\nRUN conda install -c conda-forge pyscipopt\nRUN conda install -c conda-forge geopandas\nRUN conda install -c conda-forge pyproj\n\n# Stage 3 - activate script\nCOPY server.py .\nEXPOSE 5000\nSHELL [\"conda\", \"run\", \"-n\", \"opt\" \"/bin/bash\", \"-c\"]\nCMD [\"python\", \"server.py\"]\n```\n\n### Step 1: Open `afms > dist > app.js`\n\n`Ctrl + F` to look for `127.0.0.1`, then replace it with `172.17.0.1`\n\n### Step 2: Open `optimiser > server.py`\n\n`Ctrl + F` to look for `app.run()`, then add `host=\"0.0.0.0\"` and `port=5000` to the arguments\n\n### Step 3: Build the Docker Images\n\nOnce you have created the Dockerfiles and setup the files accordingly, we will build the images.\n\n```shell Terminal\ncd afms\ndocker build . -t client-frontend\n# Estimated runtime: 20 seconds\n```\n\nEnsure that you are in the correct folders when building the images\n\n```shell Terminal\ncd optimiser\ndocker build . -t server-backend\n# Estimated runtime: 4000 seconds\n```\n\n### Step 4: Run the Docker Containers\n\nOnce the Docker images has been built, you can use the following commands to run the Docker containers:\n\n```shell Terminal\ndocker run -d -p 443:80 client-frontend\n```\n\nWe will expose port 443 on the host.\n\n```shell Terminal\ndocker run -d -p 5000:5000 server-backend\n```\n\n### Step 5: Check the Running Containers\n\nTo check the running containers, you can use the following command:\n\n```shell Terminal\ndocker ps -a\n```\n\n### Step 6: Access the client/server\n\nTo access the client, visit `localhost:443`.\nTo access the server, visit `localhost:5000`.\n\n### Step 7: Check the Docker Logs\n\nIf you encounter any issues, you can check the Docker logs to see what might be causing the problem. Use the following command to view the logs:\n\n```shell Terminal\ndocker logs <container_id>\n```\n\nReplace `<container_id>` with the actual ID of the container you want to view the logs for.\n\n### Step 8: Stop the Docker Containers\n\nWhen you’re done, you can stop the Docker containers using the following command:\n\n```shell Terminal\ndocker stop <container_id>\n```\n\nReplace `<container_id>` with the actual ID of the container you want to view the logs for.\n\n### Final Words\n\nIn case the port 3000 is already in use, you can use the following command to check which processes are involved:\n\n```shell Terminal\nsudo lsof -i -P -n | grep 3000\n```\n\nLastly, to kill the process involved, use the following command:\n\n```shell Terminal\nkill -9 <pid>\n```\n\nReplace `<pid>` with the actual process ID of the process you want to kill."
+    },
+    {
+      "id": "set-up-backend-server-python-on-docker",
+      "metadata": {
+        "permalink": "/blog/set-up-backend-server-python-on-docker",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02-08-set-up-backend-server-python-on-docker.md",
+        "source": "@site/blog/2023-02-08-set-up-backend-server-python-on-docker.md",
+        "title": "Set Up Backend Server (Python) on Docker",
+        "description": "Prerequisities",
+        "date": "2023-02-08T00:00:00.000Z",
+        "formattedDate": "February 8, 2023",
+        "tags": [
+          {
+            "label": "tutorial",
+            "permalink": "/blog/tags/tutorial"
+          }
+        ],
+        "readingTime": 2.98,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eldora Boo",
+            "title": "Data Engineer of AFMS Project",
+            "url": "https://github.com/eldoraboo",
+            "imageURL": "https://github.com/eldoraboo.png",
+            "key": "eldoraboo"
+          }
+        ],
+        "frontMatter": {
+          "slug": "set-up-backend-server-python-on-docker",
+          "title": "Set Up Backend Server (Python) on Docker",
+          "authors": [
+            "eldoraboo"
+          ],
+          "tags": [
+            "tutorial"
+          ]
+        },
+        "prevItem": {
+          "title": "Setting Up Docker To Connect Client and Server",
+          "permalink": "/blog/setting-up-docker-to-connect-client-and-server"
+        },
+        "nextItem": {
+          "title": "Set Up Frontend Client (JavaScript) on Docker",
+          "permalink": "/blog/set-up-frontend-client-java-script-on-docker"
+        }
+      },
+      "content": "### Prerequisities\nThis article assumes we already have these two files in the directory.\n\n```python title=app.py withLineNumbers\nimport json\nfrom flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    return json.dumps({'message': 'Welcome to Flask!'})\napp.run(debug=True,host=\"0.0.0.0\",port=3000)\n```\n\n<br/>\n\n```text title=requirements.txt withLineNumbers\nflask\n```\n\n\n### Step 1: Open Docker Desktop\nTo get started with Docker, you need to have Docker Desktop installed on your machine. If you haven’t already, download and install it from the official website. Once installed, open Docker Desktop and make sure that it is running.\n\n### Step 2: Create a Dockerfile\nA `Dockerfile` is a script that contains all the instructions required to build a Docker image. In our case, we want to build an image for a Flask REST API. To do this, we’ll need to include the following components in our Dockerfile:\n1. The base image (e.g. `alpine`)\n2. The required dependencies (e.g., Flask and its dependencies)\n3. The code for the Flask REST API\n\nHere’s an example of a simple `Dockerfile` for a Flask REST API:\n\n```shell title=Dockerfile withLineNumbers\nFROM alpine:latest\nRUN apk update\nRUN apk add py-pip\nRUN apk add --no-cache python3-dev \nRUN pip install --upgrade pip\nWORKDIR /app\nCOPY . /app\nRUN pip --no-cache-dir install -r requirements.txt\nCMD [\"python3\", \"app.py\"]\n```\n\nIn this example, we’re using the `alpine` image as the base image and installing the required dependencies using `pip install`. We’re also copying the code for the Flask REST API to the working directory and setting the environment variable for Flask.\n\n### Step 3: Build the Docker Image\nOnce you have created the `Dockerfile`, you can use the following command to build the Docker image:\n\n```shell Terminal\ndocker build . -t server-backend\n```\n\nThe `docker build` command builds the Docker image using the instructions in the Dockerfile. The `.` argument specifies the location of the Dockerfile, and the `-t` argument specifies the name and tag of the image (in this case, `server-backend`).\n\n### Step 4: Run the Docker Container\nOnce the Docker image has been built, you can use the following command to run the Docker container:\n\n```shell Terminal\ndocker run -d -p 3000:3000 server-backend\n```\n\nThe `docker run` command runs the Docker container from the image. The `-d` argument specifies that the container should run in the background, and the `-p` argument maps port `3000` in the container to port `3000` on the host.\n\n### Step 5: Check the Running Containers\nTo check the running containers, you can use the following command:\n\n```shell Terminal\ndocker ps -a\n```\n\n\n### Step 6: Access the Flask REST API\nTo access the Flask REST API, visit `localhost:3000`\n\n### Step 7: Check the Docker Logs\nIf you encounter any issues, you can check the Docker logs to see what might be causing the problem. Use the following command to view the logs:\n\n```shell Terminal\ndocker logs <container_id>\n```\n\nReplace `<container_id>` with the actual ID of the container you want to view the logs for.\n\n### Step 8: Stop the Docker Container\nWhen you’re done, you can stop the Docker container using the following command:\n\n```shell Terminal\ndocker stop <container_id>\n```\n\nReplace `<container_id>` with the actual ID of the container you want to view the logs for.\n\n### Final Words\nIn case the port 3000 is already in use, you can use the following command to check which processes are involved:\n\n```shell Terminal\nsudo lsof -i -P -n | grep 3000\n```\n\nLastly, to kill the process involved, use the following command:\n\n```shell Terminal\nkill -9 <pid>\n```\n\nReplace `<pid>` with the actual process ID of the process you want to kill."
+    },
+    {
+      "id": "set-up-frontend-client-java-script-on-docker",
+      "metadata": {
+        "permalink": "/blog/set-up-frontend-client-java-script-on-docker",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-02-08-set-up-frontend-client-java-script-on-docker.md",
+        "source": "@site/blog/2023-02-08-set-up-frontend-client-java-script-on-docker.md",
+        "title": "Set Up Frontend Client (JavaScript) on Docker",
+        "description": "Prerequisities",
+        "date": "2023-02-08T00:00:00.000Z",
+        "formattedDate": "February 8, 2023",
+        "tags": [
+          {
+            "label": "tutorial",
+            "permalink": "/blog/tags/tutorial"
+          }
+        ],
+        "readingTime": 2.995,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Eldora Boo",
+            "title": "Data Engineer of AFMS Project",
+            "url": "https://github.com/eldoraboo",
+            "imageURL": "https://github.com/eldoraboo.png",
+            "key": "eldoraboo"
+          }
+        ],
+        "frontMatter": {
+          "slug": "set-up-frontend-client-java-script-on-docker",
+          "title": "Set Up Frontend Client (JavaScript) on Docker",
+          "authors": [
+            "eldoraboo"
+          ],
+          "tags": [
+            "tutorial"
+          ]
+        },
+        "prevItem": {
+          "title": "Set Up Backend Server (Python) on Docker",
+          "permalink": "/blog/set-up-backend-server-python-on-docker"
+        }
+      },
+      "content": "### Prerequisities\n\nThis article assumes we already have started a `create-react-app` project.\n\n\n```shell Terminal \nnpx create-react-app client-frontend\ncd client-frontend\nnpm start\n```\n\n\n### Step 1: Open Docker Desktop\n\nTo get started with Docker, you need to have Docker Desktop installed on your machine. If you haven’t already, download and install it from the official website. Once installed, open Docker Desktop and make sure that it is running.\n\n### Step 2: Create a Dockerfile\n\nA `Dockerfile` is a script that contains all the instructions required to build a Docker image. In our case, we want to build an image for a Create React App. To do this, we’ll need to include the following components in our Dockerfile:\n\n1. The base image (e.g.`node:18-alpine`)\n2. The required dependencies (e.g., the Create React App dependencies)\n3. The code for the Create React App\n\nHere’s an example of a simple `Dockerfile` for a Create React App:\n\n\n```shell title=Dockerfile withLineNumbers\n# Stage 1\nFROM node:18-alpine as builder\nWORKDIR /app\nCOPY package.json .\nCOPY yarn.lock .\nRUN yarn install\nCOPY . .\nRUN yarn build\n\n# Stage 2\n\nFROM nginx:1.19.0\nWORKDIR /usr/share/nginx/html\nRUN rm -rf ./\\*\nCOPY --from=builder /app/build .\nENTRYPOINT [\"nginx\", \"-g\", \"daemon off;\"]\n\n````\n\nIn this example, we’re using the official Node image as the base image and installing the required dependencies using `npm install`. We’re also copying the code for the Create React App to the working directory and setting the environment variable for React.js. Make a `.dockerignore` file as well.\n\n```shell title=.dockerignore withLineNumbers\n/node_modules\n````\n\n\n\n### Step 3: Build the Docker Image\n\nOnce you have created the `Dockerfile`, you can use the following command to build the Docker image:\n\n\n```shell Terminal\ndocker build . -t client-frontend \n```\n\nThe `docker build` command builds the Docker image using the instructions in the\nDockerfile. The `.` argument specifies the location of the Dockerfile, and the `-t`\nargument specifies the name and tag of the image (in this case, `client-frontend`).\n\n### Step 4: Run the Docker Container\n\nOnce the Docker image has been built, you can use the following command to run the Docker container:\n\n\n```shell Terminal\ndocker run -d -p 8080:80 client-frontend\n```\n\nThe `docker run` command runs the Docker container from the image. The `-d` argument\nspecifies that the container should run in the background, and the `-p` argument\nmaps port `80` in the container to port `8080` on the host.\n\n### Step 5: Check the Running Containers\n\nTo check the running containers, you can use the following command:\n\n\n```shell Terminal\ndocker ps -a\n```\n\n\n### Step 6: Access the Create React App\n\nTo access the Create React App, visit `localhost:8080`\n\n### Step 7: Check the Docker Logs\n\nIf you encounter any issues, you can check the Docker logs to see what might be causing the problem. Use the following command to view the logs:\n\n\n```shell Terminal\ndocker logs <container_id>\n```\n\nReplace `<container_id>` with the actual ID of the container you want to view the logs for.\n\n### Step 8: Stop the Docker Container\n\nWhen you’re done, you can stop the Docker container using the following command:\n\n\n```shell Terminal\ndocker stop <container_id>\n```\n\nReplace `<container_id>` with the actual ID of the container you want to view the logs for.\n\n### Final Words\n\nIn case the port 8080 is already in use, you can use the following command to check which processes are involved:\n\n\n```shell Terminal\nsudo lsof -i -P -n | grep 8080\n```\n\nLastly, to kill the process involved, use the following command:\n\n```shell Terminal\nkill -9 <pid>\n```\n\nReplace `<pid>` with the actual process ID of the process you want to kill."
     }
   ]
 }
