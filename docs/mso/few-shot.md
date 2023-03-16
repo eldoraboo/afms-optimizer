@@ -19,7 +19,6 @@ import os
 ### Few-Shot Function
 
 ```py
-#define a function to process your input and output
 def few_shot(doc, csv_file):
     df = pd.read_csv(csv_file.name)
     data = {}
