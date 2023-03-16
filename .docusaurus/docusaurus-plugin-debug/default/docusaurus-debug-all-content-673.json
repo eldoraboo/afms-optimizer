@@ -47,87 +47,6 @@
               }
             },
             {
-              "unversionedId": "changelog/back-end",
-              "id": "changelog/back-end",
-              "title": "Back-End",
-              "description": "",
-              "source": "@site/docs/changelog/back-end.md",
-              "sourceDirName": "changelog",
-              "slug": "/changelog/back-end",
-              "permalink": "/docs/changelog/back-end",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/changelog/back-end.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Front-End",
-                "permalink": "/docs/changelog/front-end"
-              },
-              "next": {
-                "title": "Dockerfiles",
-                "permalink": "/docs/changelog/dockerfiles"
-              }
-            },
-            {
-              "unversionedId": "changelog/dockerfiles",
-              "id": "changelog/dockerfiles",
-              "title": "Dockerfiles",
-              "description": "",
-              "source": "@site/docs/changelog/dockerfiles.md",
-              "sourceDirName": "changelog",
-              "slug": "/changelog/dockerfiles",
-              "permalink": "/docs/changelog/dockerfiles",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/changelog/dockerfiles.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Back-End",
-                "permalink": "/docs/changelog/back-end"
-              },
-              "next": {
-                "title": "MSO: Text Classification",
-                "permalink": "/docs/category/mso-text-classification"
-              }
-            },
-            {
-              "unversionedId": "changelog/front-end",
-              "id": "changelog/front-end",
-              "title": "Front-End",
-              "description": "",
-              "source": "@site/docs/changelog/front-end.md",
-              "sourceDirName": "changelog",
-              "slug": "/changelog/front-end",
-              "permalink": "/docs/changelog/front-end",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/changelog/front-end.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Changelog",
-                "permalink": "/docs/category/changelog"
-              },
-              "next": {
-                "title": "Back-End",
-                "permalink": "/docs/changelog/back-end"
-              }
-            },
-            {
               "unversionedId": "further-improvements/error-handling",
               "id": "further-improvements/error-handling",
               "title": "Error Handling",
@@ -150,8 +69,8 @@
                 "permalink": "/docs/further-improvements/vulnerabilities"
               },
               "next": {
-                "title": "Changelog",
-                "permalink": "/docs/category/changelog"
+                "title": "MSO: Text Classification",
+                "permalink": "/docs/category/mso-text-classification"
               }
             },
             {
@@ -320,7 +239,7 @@
               "unversionedId": "mso/data-extraction",
               "id": "mso/data-extraction",
               "title": "Data Extraction",
-              "description": "",
+              "description": "Overview",
               "source": "@site/docs/mso/data-extraction.md",
               "sourceDirName": "mso",
               "slug": "/mso/data-extraction",
@@ -347,7 +266,7 @@
               "unversionedId": "mso/few-shot",
               "id": "mso/few-shot",
               "title": "Implementing Few-Shot",
-              "description": "Training Few-Shot Model with Classy-Classification",
+              "description": "Overview",
               "source": "@site/docs/mso/few-shot.md",
               "sourceDirName": "mso",
               "slug": "/mso/few-shot",
@@ -397,7 +316,7 @@
               "unversionedId": "mso/model-setup",
               "id": "mso/model-setup",
               "title": "Model Setup",
-              "description": "",
+              "description": "Overview",
               "source": "@site/docs/mso/model-setup.md",
               "sourceDirName": "mso",
               "slug": "/mso/model-setup",
@@ -424,7 +343,7 @@
               "unversionedId": "mso/sandbox",
               "id": "mso/sandbox",
               "title": "Sandbox",
-              "description": "<iframe",
+              "description": "Explore the power of zero-shot classification with this interactive demo using the Facebook BART-large MNLI model, hosted on a Gradio space. This user-friendly interface allows you to input your own text and candidate labels to see how the model classifies the text based on your provided categories. The model is highly versatile and can be used for a wide range of applications, including topic categorization, sentiment analysis, and more.",
               "source": "@site/docs/mso/sandbox.md",
               "sourceDirName": "mso",
               "slug": "/mso/sandbox",
@@ -857,32 +776,6 @@
                   "description": "Possible further improvements for the AFMS Project.",
                   "slug": "/category/further-improvements",
                   "permalink": "/docs/category/further-improvements"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Changelog",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "changelog/front-end"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "changelog/back-end"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "changelog/dockerfiles"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Changelog for AFMS Project",
-                  "slug": "/category/changelog",
-                  "permalink": "/docs/category/changelog"
                 }
               },
               {

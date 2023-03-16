@@ -34,7 +34,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '92c'),
+    component: ComponentCreator('/docs', 'eb7'),
     routes: [
       {
         path: '/docs/added-features/downloading-result-files',
@@ -45,12 +45,6 @@ export default [
       {
         path: '/docs/category/added-features',
         component: ComponentCreator('/docs/category/added-features', 'a14'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/changelog',
-        component: ComponentCreator('/docs/category/changelog', 'fcf'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -81,24 +75,6 @@ export default [
       {
         path: '/docs/category/setting-up-docker',
         component: ComponentCreator('/docs/category/setting-up-docker', 'a3a'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/changelog/back-end',
-        component: ComponentCreator('/docs/changelog/back-end', '625'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/changelog/dockerfiles',
-        component: ComponentCreator('/docs/changelog/dockerfiles', '5e4'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/changelog/front-end',
-        component: ComponentCreator('/docs/changelog/front-end', '245'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

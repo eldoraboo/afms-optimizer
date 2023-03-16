@@ -5,8 +5,8 @@
   "permalink": "/docs/category/mso-text-classification",
   "navigation": {
     "previous": {
-      "title": "Dockerfiles",
-      "permalink": "/docs/changelog/dockerfiles"
+      "title": "Error Handling",
+      "permalink": "/docs/further-improvements/error-handling"
     },
     "next": {
       "title": "Introduction",

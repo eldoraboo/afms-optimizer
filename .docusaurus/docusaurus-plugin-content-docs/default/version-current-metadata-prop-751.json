@@ -158,33 +158,6 @@
       },
       {
         "type": "category",
-        "label": "Changelog",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Front-End",
-            "href": "/docs/changelog/front-end",
-            "docId": "changelog/front-end"
-          },
-          {
-            "type": "link",
-            "label": "Back-End",
-            "href": "/docs/changelog/back-end",
-            "docId": "changelog/back-end"
-          },
-          {
-            "type": "link",
-            "label": "Dockerfiles",
-            "href": "/docs/changelog/dockerfiles",
-            "docId": "changelog/dockerfiles"
-          }
-        ],
-        "href": "/docs/category/changelog"
-      },
-      {
-        "type": "category",
         "label": "MSO: Text Classification",
         "collapsible": true,
         "collapsed": true,
@@ -237,24 +210,6 @@
       "description": "To access the files processed in the optimizer backend, we improved the API to include a downloadfile method that allows users to **download the results** stored in the output folder_. Then we add a function in the frontend to auto-download the file once the optimization process is completed.",
       "sidebar": "tutorialSidebar"
     },
-    "changelog/back-end": {
-      "id": "changelog/back-end",
-      "title": "Back-End",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "changelog/dockerfiles": {
-      "id": "changelog/dockerfiles",
-      "title": "Dockerfiles",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "changelog/front-end": {
-      "id": "changelog/front-end",
-      "title": "Front-End",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
     "further-improvements/error-handling": {
       "id": "further-improvements/error-handling",
       "title": "Error Handling",
@@ -300,13 +255,13 @@
     "mso/data-extraction": {
       "id": "mso/data-extraction",
       "title": "Data Extraction",
-      "description": "",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
     "mso/few-shot": {
       "id": "mso/few-shot",
       "title": "Implementing Few-Shot",
-      "description": "Training Few-Shot Model with Classy-Classification",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
     "mso/introduction": {
@@ -318,13 +273,13 @@
     "mso/model-setup": {
       "id": "mso/model-setup",
       "title": "Model Setup",
-      "description": "",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
     "mso/sandbox": {
       "id": "mso/sandbox",
       "title": "Sandbox",
-      "description": "<iframe",
+      "description": "Explore the power of zero-shot classification with this interactive demo using the Facebook BART-large MNLI model, hosted on a Gradio space. This user-friendly interface allows you to input your own text and candidate labels to see how the model classifies the text based on your provided categories. The model is highly versatile and can be used for a wide range of applications, including topic categorization, sentiment analysis, and more.",
       "sidebar": "tutorialSidebar"
     },
     "mso/source-code": {

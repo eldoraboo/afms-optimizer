@@ -19,10 +19,6 @@ http://localhost:3000/docs/added-features/downloading-result-files
 http://localhost:3000/docs/category/further-improvements
 http://localhost:3000/docs/further-improvements/vulnerabilities
 http://localhost:3000/docs/further-improvements/error-handling
-http://localhost:3000/docs/category/changelog
-http://localhost:3000/docs/changelog/front-end
-http://localhost:3000/docs/changelog/back-end
-http://localhost:3000/docs/changelog/dockerfiles
 http://localhost:3000/docs/category/mso-text-classification
 http://localhost:3000/docs/mso/introduction
 http://localhost:3000/docs/mso/sandbox

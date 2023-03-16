@@ -16,21 +16,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "changelog/back-end",
-              "path": "/docs/changelog/back-end",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "changelog/dockerfiles",
-              "path": "/docs/changelog/dockerfiles",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "changelog/front-end",
-              "path": "/docs/changelog/front-end",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "further-improvements/error-handling",
               "path": "/docs/further-improvements/error-handling",
               "sidebar": "tutorialSidebar"
@@ -163,11 +148,6 @@
             {
               "id": "/category/further-improvements",
               "path": "/docs/category/further-improvements",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/changelog",
-              "path": "/docs/category/changelog",
               "sidebar": "tutorialSidebar"
             },
             {

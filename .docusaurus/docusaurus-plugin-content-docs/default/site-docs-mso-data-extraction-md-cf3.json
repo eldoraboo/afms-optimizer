@@ -2,7 +2,7 @@
   "unversionedId": "mso/data-extraction",
   "id": "mso/data-extraction",
   "title": "Data Extraction",
-  "description": "",
+  "description": "Overview",
   "source": "@site/docs/mso/data-extraction.md",
   "sourceDirName": "mso",
   "slug": "/mso/data-extraction",

@@ -2,7 +2,7 @@
   "unversionedId": "mso/model-setup",
   "id": "mso/model-setup",
   "title": "Model Setup",
-  "description": "",
+  "description": "Overview",
   "source": "@site/docs/mso/model-setup.md",
   "sourceDirName": "mso",
   "slug": "/mso/model-setup",
