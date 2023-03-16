@@ -34,7 +34,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'db3'),
+    component: ComponentCreator('/docs', '92c'),
     routes: [
       {
         path: '/docs/added-features/downloading-result-files',
@@ -147,6 +147,12 @@ export default [
       {
         path: '/docs/mso/data-extraction',
         component: ComponentCreator('/docs/mso/data-extraction', '840'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/mso/few-shot',
+        component: ComponentCreator('/docs/mso/few-shot', '081'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

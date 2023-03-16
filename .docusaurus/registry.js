@@ -33,6 +33,7 @@ export default {
   '814f3328': [() => import(/* webpackChunkName: '814f3328' */ '~blog/default/blog-post-list-prop-default.json'), '~blog/default/blog-post-list-prop-default.json', require.resolveWeak('~blog/default/blog-post-list-prop-default.json')],
   '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ '~docs/default/version-current-metadata-prop-751.json'), '~docs/default/version-current-metadata-prop-751.json', require.resolveWeak('~docs/default/version-current-metadata-prop-751.json')],
   '978812f1': [() => import(/* webpackChunkName: '978812f1' */ '@site/docs/further-improvements/error-handling.md'), '@site/docs/further-improvements/error-handling.md', require.resolveWeak('@site/docs/further-improvements/error-handling.md')],
+  '9ad54ab4': [() => import(/* webpackChunkName: '9ad54ab4' */ '@site/docs/mso/few-shot.md'), '@site/docs/mso/few-shot.md', require.resolveWeak('@site/docs/mso/few-shot.md')],
   '9e4087bc': [() => import(/* webpackChunkName: '9e4087bc' */ '@theme/BlogArchivePage'), '@theme/BlogArchivePage', require.resolveWeak('@theme/BlogArchivePage')],
   'a6651138': [() => import(/* webpackChunkName: 'a6651138' */ '@site/docs/how-to-use-afms/format-of-hub-files.md'), '@site/docs/how-to-use-afms/format-of-hub-files.md', require.resolveWeak('@site/docs/how-to-use-afms/format-of-hub-files.md')],
   'a6aa9e1f': [() => import(/* webpackChunkName: 'a6aa9e1f' */ '@theme/BlogListPage'), '@theme/BlogListPage', require.resolveWeak('@theme/BlogListPage')],

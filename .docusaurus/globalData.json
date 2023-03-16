@@ -71,6 +71,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "mso/few-shot",
+              "path": "/docs/mso/few-shot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "mso/introduction",
               "path": "/docs/mso/introduction",
               "sidebar": "tutorialSidebar"

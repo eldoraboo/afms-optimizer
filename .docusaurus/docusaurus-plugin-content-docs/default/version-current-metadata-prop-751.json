@@ -218,6 +218,12 @@
             "label": "Complete Source Code",
             "href": "/docs/mso/source-code",
             "docId": "mso/source-code"
+          },
+          {
+            "type": "link",
+            "label": "Implementing Few-Shot",
+            "href": "/docs/mso/few-shot",
+            "docId": "mso/few-shot"
           }
         ],
         "href": "/docs/category/mso-text-classification"
@@ -295,6 +301,12 @@
       "id": "mso/data-extraction",
       "title": "Data Extraction",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "mso/few-shot": {
+      "id": "mso/few-shot",
+      "title": "Implementing Few-Shot",
+      "description": "Training Few-Shot Model with Classy-Classification",
       "sidebar": "tutorialSidebar"
     },
     "mso/introduction": {

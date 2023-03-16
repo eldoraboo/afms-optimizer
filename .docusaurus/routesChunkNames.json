@@ -56,7 +56,7 @@
     },
     "content": "393be207"
   },
-  "/docs-db3": {
+  "/docs-92c": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "df044f99"
@@ -138,6 +138,10 @@
   "/docs/mso/data-extraction-840": {
     "__comp": "17896441",
     "content": "cf304ef7"
+  },
+  "/docs/mso/few-shot-081": {
+    "__comp": "17896441",
+    "content": "9ad54ab4"
   },
   "/docs/mso/introduction-2cb": {
     "__comp": "17896441",

@@ -42,3 +42,23 @@ def add_header(response):
 ```
 
 ## Auto-Download Function
+
+```js
+...
+
+  fetch(`${apiUrl}/file?fileName=${fileName}`)
+      .then((response) => response.blob())
+      .then((blob) => {
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = `${fileName}.zip`;
+          a.click();
+      })
+      .catch((error) => {
+          console.error(error);
+      });
+  });
+  
+...
+```

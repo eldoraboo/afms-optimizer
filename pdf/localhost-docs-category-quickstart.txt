@@ -10,10 +10,10 @@ http://localhost:3000/docs/setting-up-docker/pulling-from-dockerhub
 http://localhost:3000/docs/setting-up-docker/deploying-containers
 http://localhost:3000/docs/category/how-to-use-afms
 http://localhost:3000/docs/how-to-use-afms/introduction
-http://localhost:3000/docs/how-to-use-afms/widget
-http://localhost:3000/docs/how-to-use-afms/load-run-scenario
-http://localhost:3000/docs/how-to-use-afms/compare-scenarios
-http://localhost:3000/docs/how-to-use-afms/example-use-case
+http://localhost:3000/docs/how-to-use-afms/format-of-hub-files
+http://localhost:3000/docs/how-to-use-afms/format-of-supporting-files
+http://localhost:3000/docs/how-to-use-afms/input-variables
+http://localhost:3000/docs/how-to-use-afms/example-scenarios
 http://localhost:3000/docs/category/added-features
 http://localhost:3000/docs/added-features/downloading-result-files
 http://localhost:3000/docs/category/further-improvements

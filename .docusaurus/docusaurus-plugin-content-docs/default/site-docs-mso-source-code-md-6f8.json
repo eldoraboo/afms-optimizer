@@ -19,5 +19,9 @@
   "previous": {
     "title": "Model Setup",
     "permalink": "/docs/mso/model-setup"
+  },
+  "next": {
+    "title": "Implementing Few-Shot",
+    "permalink": "/docs/mso/few-shot"
   }
 }

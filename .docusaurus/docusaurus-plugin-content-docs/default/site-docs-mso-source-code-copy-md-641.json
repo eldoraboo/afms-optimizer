@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mso/source-code copy",
+  "id": "mso/source-code copy",
+  "title": "Complete Source Code",
+  "description": "",
+  "source": "@site/docs/mso/source-code copy.md",
+  "sourceDirName": "mso",
+  "slug": "/mso/source-code copy",
+  "permalink": "/docs/mso/source-code copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mso/source-code copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Model Setup",
+    "permalink": "/docs/mso/model-setup"
+  },
+  "next": {
+    "title": "Complete Source Code",
+    "permalink": "/docs/mso/source-code"
+  }
+}
