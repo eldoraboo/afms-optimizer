@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/example-scenarios copy",
+  "id": "how-to-use-afms/example-scenarios copy",
+  "title": "Example Scenarios",
+  "description": "File Locations",
+  "source": "@site/docs/how-to-use-afms/example-scenarios copy.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/example-scenarios copy",
+  "permalink": "/docs/how-to-use-afms/example-scenarios copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/example-scenarios copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Format of Supporting Files",
+    "permalink": "/docs/how-to-use-afms/format-of-supporting-files"
+  },
+  "next": {
+    "title": "Example Scenarios",
+    "permalink": "/docs/how-to-use-afms/example-scenarios"
+  }
+}

@@ -34,7 +34,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a53'),
+    component: ComponentCreator('/docs', 'db3'),
     routes: [
       {
         path: '/docs/added-features/downloading-result-files',
@@ -115,32 +115,32 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/how-to-use-afms/compare-scenarios',
-        component: ComponentCreator('/docs/how-to-use-afms/compare-scenarios', '2ec'),
+        path: '/docs/how-to-use-afms/example-scenarios',
+        component: ComponentCreator('/docs/how-to-use-afms/example-scenarios', '4ee'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/how-to-use-afms/example-use-case',
-        component: ComponentCreator('/docs/how-to-use-afms/example-use-case', '5b7'),
+        path: '/docs/how-to-use-afms/format-of-hub-files',
+        component: ComponentCreator('/docs/how-to-use-afms/format-of-hub-files', '7ed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/how-to-use-afms/format-of-supporting-files',
+        component: ComponentCreator('/docs/how-to-use-afms/format-of-supporting-files', '967'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/how-to-use-afms/input-variables',
+        component: ComponentCreator('/docs/how-to-use-afms/input-variables', 'cfe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/how-to-use-afms/introduction',
         component: ComponentCreator('/docs/how-to-use-afms/introduction', '5dc'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/how-to-use-afms/load-run-scenario',
-        component: ComponentCreator('/docs/how-to-use-afms/load-run-scenario', 'dc2'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/how-to-use-afms/widget',
-        component: ComponentCreator('/docs/how-to-use-afms/widget', '7d0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

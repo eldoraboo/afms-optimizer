@@ -1,0 +1,22 @@
+---
+sidebar_position: 4
+---
+
+# Input Variables
+
+| name                 | description                                                                                               | remarks                                                                                                                             |            |
+| -------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| id                   | unique id representing each node                                                                          |                                                                                                                                     |            |
+| physical_id          | id given by data owner,<br></br>for displaying in UX                                                      |                                                                                                                                     |            |
+| latitude             | latitude of facility location                                                                             | CRS (‘EPSG:4326’)                                                                                                                   |            |
+| longitude            | longitude of facility location                                                                            | CRS (‘EPSG:4326’)                                                                                                                   |            |
+| size                 | area of facility in meters<br></br>(to calculate the operation cost)                                      | fixed size based on<br></br>area_meso/area_macro parameters                                                                         | not in use |
+| staff                | manpower at facility<br></br>(to calculate the operation cost)                                            |                                                                                                                                     | not in use |
+| subzone_id           | facility located in a particular subzone<br></br>(to calculate the environmental cost)                    |                                                                                                                                     | not in use |
+| traffic              | number of trips generated within the subzone/hex<br></br>(to calculate the environmental cost)            |                                                                                                                                     | not in use |
+| psm_month            | rental cost per square-meter per month<br></br>(to calculate the operation cost)                          | operation cost for the total area<br></br>per day of the facility.<br></br>Area is based on<br></br>area_meso/area_macro parameters |            |
+| population           | number of people within the subzone/hex<br></br>(to calculate the environmental cost)                     | environmental cost incurred for<br></br>per person per day based on the<br></br>env_cost parameters                                 |            |
+| Aggregate            | boolean (Y/N), Y where<br></br>population is aggregated into hex                                          | default = Y                                                                                                                         |            |
+| xs, s, m, l, xl, xxl | size categories of delivery boxes<br></br>(to calculate total supply/demand)                              | transportation cost amount per day<br></br>based on parcel size parameters <br></br>and transportation rate parameters              |            |
+| capacity             | maximum capacity of the facility                                                                          | maximum capacity of the facility                                                                                                    |            |
+| exist                | boolean (Y/N), if Y: node is an<br></br>existing facility, if N: node is a<br></br>new candidate facility |                                                                                                                                     |            |

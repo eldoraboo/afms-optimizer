@@ -56,7 +56,7 @@
     },
     "content": "393be207"
   },
-  "/docs-a53": {
+  "/docs-db3": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "df044f99"
@@ -115,25 +115,25 @@
     "__comp": "17896441",
     "content": "564e452d"
   },
-  "/docs/how-to-use-afms/compare-scenarios-2ec": {
+  "/docs/how-to-use-afms/example-scenarios-4ee": {
     "__comp": "17896441",
-    "content": "690a6558"
+    "content": "fe5442ee"
   },
-  "/docs/how-to-use-afms/example-use-case-5b7": {
+  "/docs/how-to-use-afms/format-of-hub-files-7ed": {
     "__comp": "17896441",
-    "content": "9d53ef77"
+    "content": "a6651138"
+  },
+  "/docs/how-to-use-afms/format-of-supporting-files-967": {
+    "__comp": "17896441",
+    "content": "0954303a"
+  },
+  "/docs/how-to-use-afms/input-variables-cfe": {
+    "__comp": "17896441",
+    "content": "e0158a99"
   },
   "/docs/how-to-use-afms/introduction-5dc": {
     "__comp": "17896441",
     "content": "f27965c6"
-  },
-  "/docs/how-to-use-afms/load-run-scenario-dc2": {
-    "__comp": "17896441",
-    "content": "4d74d079"
-  },
-  "/docs/how-to-use-afms/widget-7d0": {
-    "__comp": "17896441",
-    "content": "758d1ba7"
   },
   "/docs/mso/data-extraction-840": {
     "__comp": "17896441",

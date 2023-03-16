@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # Creating Dockerfiles
 
-
 ## Front-End Dockerfile
 
 ### Stage 1 - The Build Process

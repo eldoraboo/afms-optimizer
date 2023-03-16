@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/format-of-supporting-files",
+  "id": "how-to-use-afms/format-of-supporting-files",
+  "title": "Format of Supporting Files",
+  "description": "Physical Node",
+  "source": "@site/docs/how-to-use-afms/format-of-supporting-files.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/format-of-supporting-files",
+  "permalink": "/docs/how-to-use-afms/format-of-supporting-files",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/format-of-supporting-files.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Format of Hub Files",
+    "permalink": "/docs/how-to-use-afms/format-of-hub-files"
+  },
+  "next": {
+    "title": "Input Variables",
+    "permalink": "/docs/how-to-use-afms/input-variables"
+  }
+}

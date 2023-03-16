@@ -41,28 +41,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "how-to-use-afms/compare-scenarios",
-              "path": "/docs/how-to-use-afms/compare-scenarios",
+              "id": "how-to-use-afms/example-scenarios",
+              "path": "/docs/how-to-use-afms/example-scenarios",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "how-to-use-afms/example-use-case",
-              "path": "/docs/how-to-use-afms/example-use-case",
+              "id": "how-to-use-afms/format-of-hub-files",
+              "path": "/docs/how-to-use-afms/format-of-hub-files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/format-of-supporting-files",
+              "path": "/docs/how-to-use-afms/format-of-supporting-files",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how-to-use-afms/input-variables",
+              "path": "/docs/how-to-use-afms/input-variables",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "how-to-use-afms/introduction",
               "path": "/docs/how-to-use-afms/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "how-to-use-afms/load-run-scenario",
-              "path": "/docs/how-to-use-afms/load-run-scenario",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "how-to-use-afms/widget",
-              "path": "/docs/how-to-use-afms/widget",
               "sidebar": "tutorialSidebar"
             },
             {

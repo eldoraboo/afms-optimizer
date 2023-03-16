@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/format-of-hub-files",
+  "id": "how-to-use-afms/format-of-hub-files",
+  "title": "Format of Hub Files",
+  "description": "Macro Hub Distribution",
+  "source": "@site/docs/how-to-use-afms/format-of-hub-files.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/format-of-hub-files",
+  "permalink": "/docs/how-to-use-afms/format-of-hub-files",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/format-of-hub-files.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/how-to-use-afms/introduction"
+  },
+  "next": {
+    "title": "Format of Supporting Files",
+    "permalink": "/docs/how-to-use-afms/format-of-supporting-files"
+  }
+}

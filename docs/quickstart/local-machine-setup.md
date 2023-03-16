@@ -29,19 +29,16 @@ Let's setup the tool for usage.
 #### Client (UX Component)
 
 1. Start **Command Prompt** or **Terminal**
-
 2. Run the following commands
 ```bash
 cd afms
 yarn start
 ```
-
 3. Open browser `http://localhost:8080`
 
 #### Client (UX Component, no internet connectivity required)
 
 1. Start **Command Prompt** or **Terminal**
-
 2. Run the following commands
 ```bash
 cd afms
@@ -49,7 +46,6 @@ yarn build
 cd afms\dist
 python -m http.server 8080
 ```
-
 3. Open browser `http://localhost:8080`
 
 ### Back-End Setup
@@ -57,14 +53,11 @@ python -m http.server 8080
 #### Server (Optimization Engine Component)
 
 1. Start **Anaconda Prompt**
-
 2. Run the following commands
 ```bash
 cd optimiser
 ```
-
 3. Environment setup _(you only need to do this step if you are initialising the environment for the first time)_
-
 ```bash 
 conda create -n opt
 conda activate opt
@@ -74,9 +67,7 @@ pip install flask
 pip install flask_cors
 pip install pyscipopt
 ```
-
 4. Run the following commands
-
 ```bash
 conda activate opt
 python server.py

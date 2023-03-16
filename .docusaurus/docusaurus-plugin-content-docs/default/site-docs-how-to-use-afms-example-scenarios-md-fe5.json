@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/example-scenarios",
+  "id": "how-to-use-afms/example-scenarios",
+  "title": "Example Scenarios",
+  "description": "Scenario 1",
+  "source": "@site/docs/how-to-use-afms/example-scenarios.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/example-scenarios",
+  "permalink": "/docs/how-to-use-afms/example-scenarios",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/example-scenarios.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Input Variables",
+    "permalink": "/docs/how-to-use-afms/input-variables"
+  },
+  "next": {
+    "title": "Added Features",
+    "permalink": "/docs/category/added-features"
+  }
+}

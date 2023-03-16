@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/input-variables",
+  "id": "how-to-use-afms/input-variables",
+  "title": "Input Variables",
+  "description": "| name                 | description                                                                                               | remarks                                                                                                                             |            |",
+  "source": "@site/docs/how-to-use-afms/input-variables.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/input-variables",
+  "permalink": "/docs/how-to-use-afms/input-variables",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/input-variables.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Format of Supporting Files",
+    "permalink": "/docs/how-to-use-afms/format-of-supporting-files"
+  },
+  "next": {
+    "title": "Example Scenarios",
+    "permalink": "/docs/how-to-use-afms/example-scenarios"
+  }
+}

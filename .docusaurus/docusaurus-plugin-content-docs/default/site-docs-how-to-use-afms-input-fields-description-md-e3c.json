@@ -1,0 +1,27 @@
+{
+  "unversionedId": "how-to-use-afms/input-fields-description",
+  "id": "how-to-use-afms/input-fields-description",
+  "title": "Input Variables",
+  "description": "File Locations",
+  "source": "@site/docs/how-to-use-afms/input-fields-description.md",
+  "sourceDirName": "how-to-use-afms",
+  "slug": "/how-to-use-afms/input-fields-description",
+  "permalink": "/docs/how-to-use-afms/input-fields-description",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-to-use-afms/input-fields-description.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Example Scenarios",
+    "permalink": "/docs/how-to-use-afms/example-scenarios"
+  },
+  "next": {
+    "title": "Added Features",
+    "permalink": "/docs/category/added-features"
+  }
+}

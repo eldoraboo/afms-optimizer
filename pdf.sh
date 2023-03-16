@@ -1,0 +1,1 @@
+npx docusaurus-prince-pdf -u http://localhost:3000/docs/category/quickstart/ --output pdf/afms_readme.pdf

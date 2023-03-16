@@ -2,7 +2,7 @@
   "unversionedId": "how-to-use-afms/introduction",
   "id": "how-to-use-afms/introduction",
   "title": "Introduction",
-  "description": "",
+  "description": "Widget",
   "source": "@site/docs/how-to-use-afms/introduction.md",
   "sourceDirName": "how-to-use-afms",
   "slug": "/how-to-use-afms/introduction",
@@ -21,7 +21,7 @@
     "permalink": "/docs/category/how-to-use-afms"
   },
   "next": {
-    "title": "Widget",
-    "permalink": "/docs/how-to-use-afms/widget"
+    "title": "Format of Hub Files",
+    "permalink": "/docs/how-to-use-afms/format-of-hub-files"
   }
 }

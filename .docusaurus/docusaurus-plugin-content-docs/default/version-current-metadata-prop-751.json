@@ -95,27 +95,27 @@
           },
           {
             "type": "link",
-            "label": "Widget",
-            "href": "/docs/how-to-use-afms/widget",
-            "docId": "how-to-use-afms/widget"
+            "label": "Format of Hub Files",
+            "href": "/docs/how-to-use-afms/format-of-hub-files",
+            "docId": "how-to-use-afms/format-of-hub-files"
           },
           {
             "type": "link",
-            "label": "Load & Run Scenario",
-            "href": "/docs/how-to-use-afms/load-run-scenario",
-            "docId": "how-to-use-afms/load-run-scenario"
+            "label": "Format of Supporting Files",
+            "href": "/docs/how-to-use-afms/format-of-supporting-files",
+            "docId": "how-to-use-afms/format-of-supporting-files"
           },
           {
             "type": "link",
-            "label": "Compare Scenarios",
-            "href": "/docs/how-to-use-afms/compare-scenarios",
-            "docId": "how-to-use-afms/compare-scenarios"
+            "label": "Input Variables",
+            "href": "/docs/how-to-use-afms/input-variables",
+            "docId": "how-to-use-afms/input-variables"
           },
           {
             "type": "link",
-            "label": "Example Use Case",
-            "href": "/docs/how-to-use-afms/example-use-case",
-            "docId": "how-to-use-afms/example-use-case"
+            "label": "Example Scenarios",
+            "href": "/docs/how-to-use-afms/example-scenarios",
+            "docId": "how-to-use-afms/example-scenarios"
           }
         ],
         "href": "/docs/category/how-to-use-afms"
@@ -261,34 +261,34 @@
       "description": "Vulnerabilities like sonatype and CVE were detected within the images of the Docker layer.",
       "sidebar": "tutorialSidebar"
     },
-    "how-to-use-afms/compare-scenarios": {
-      "id": "how-to-use-afms/compare-scenarios",
-      "title": "Compare Scenarios",
-      "description": "",
+    "how-to-use-afms/example-scenarios": {
+      "id": "how-to-use-afms/example-scenarios",
+      "title": "Example Scenarios",
+      "description": "Scenario 1",
       "sidebar": "tutorialSidebar"
     },
-    "how-to-use-afms/example-use-case": {
-      "id": "how-to-use-afms/example-use-case",
-      "title": "Example Use Case",
-      "description": "",
+    "how-to-use-afms/format-of-hub-files": {
+      "id": "how-to-use-afms/format-of-hub-files",
+      "title": "Format of Hub Files",
+      "description": "Macro Hub Distribution",
+      "sidebar": "tutorialSidebar"
+    },
+    "how-to-use-afms/format-of-supporting-files": {
+      "id": "how-to-use-afms/format-of-supporting-files",
+      "title": "Format of Supporting Files",
+      "description": "Physical Node",
+      "sidebar": "tutorialSidebar"
+    },
+    "how-to-use-afms/input-variables": {
+      "id": "how-to-use-afms/input-variables",
+      "title": "Input Variables",
+      "description": "| name                 | description                                                                                               | remarks                                                                                                                             |            |",
       "sidebar": "tutorialSidebar"
     },
     "how-to-use-afms/introduction": {
       "id": "how-to-use-afms/introduction",
       "title": "Introduction",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "how-to-use-afms/load-run-scenario": {
-      "id": "how-to-use-afms/load-run-scenario",
-      "title": "Load & Run Scenario",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "how-to-use-afms/widget": {
-      "id": "how-to-use-afms/widget",
-      "title": "Widget",
-      "description": "",
+      "description": "Widget",
       "sidebar": "tutorialSidebar"
     },
     "mso/data-extraction": {
