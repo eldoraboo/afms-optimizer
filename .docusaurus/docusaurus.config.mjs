@@ -7,7 +7,7 @@ export default {
   "title": "AFMS Project",
   "tagline": "Documentation for AFMS Project",
   "favicon": "img/favicon.ico",
-  "url": "https://afms.eldora.me",
+  "url": "https://afms-optimizer.netlify.app",
   "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",

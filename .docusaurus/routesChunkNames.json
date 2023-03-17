@@ -1,245 +1,288 @@
 {
-  "/blog-ea7": {
-    "__comp": "a6aa9e1f",
+  "/__docusaurus/debug-d32": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
+    }
+  },
+  "/__docusaurus/debug/config-52c": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
+    }
+  },
+  "/__docusaurus/debug/content-abf": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
     },
-    "sidebar": "814f3328",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-11b": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
+    }
+  },
+  "/__docusaurus/debug/metadata-ff9": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
+    }
+  },
+  "/__docusaurus/debug/registry-eb0": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
+    }
+  },
+  "/__docusaurus/debug/routes-71f": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-32-c-acd"
+    }
+  },
+  "/blog-ea7": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-20-a-3be"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "6736418a"
+        "content": "content---blog-673-3b0"
       },
       {
-        "content": "8f6bcfc8"
+        "content": "content---blog-8-f-6-8eb"
       },
       {
-        "content": "fe5ea1fa"
+        "content": "content---blogfe-5-671"
       },
       {
-        "content": "ef42a5bc"
+        "content": "content---blogef-4-9ce"
       },
       {
-        "content": "5e2a477d"
+        "content": "content---blog-5-e-2-ae1"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "metadata---blogb-2-b-df1"
   },
   "/blog/archive-473": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "archive": "b2f554cd"
+    "archive": "archive---blog-archiveb-2-f-393"
   },
   "/blog/set-up-backend-server-python-on-docker-94f": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
-    "content": "9c3e2d67"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-set-up-backend-server-python-on-docker-9-c-3-e17"
   },
   "/blog/set-up-frontend-client-java-script-on-docker-136": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
-    "content": "78358362"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-set-up-frontend-client-java-script-on-docker-783-129"
   },
   "/blog/setting-up-docker-to-connect-client-and-server-941": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
-    "content": "88ea4673"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-setting-up-docker-to-connect-client-and-server-88-e-25e"
   },
   "/blog/tags-8d1": {
-    "__comp": "01a85c17",
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
   },
   "/blog/tags/tutorial-792": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "6736418a"
+        "content": "content---blog-673-3b0"
       },
       {
-        "content": "8f6bcfc8"
+        "content": "content---blog-8-f-6-8eb"
       },
       {
-        "content": "fe5ea1fa"
+        "content": "content---blogfe-5-671"
       },
       {
-        "content": "ef42a5bc"
+        "content": "content---blogef-4-9ce"
       },
       {
-        "content": "5e2a477d"
+        "content": "content---blog-5-e-2-ae1"
       }
     ],
-    "tag": "77e23114",
-    "listMetadata": "369bd8f8"
+    "tag": "tag---blog-tags-tutorial-77-e-b16",
+    "listMetadata": "listMetadata---blog-tags-tutorial-369-765"
   },
   "/blog/using-flask-to-zip-and-download-files-part-1-70a": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
-    "content": "18680fc3"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-using-flask-to-zip-and-download-files-part-1186-96f"
   },
   "/blog/using-flask-to-zip-and-download-files-part-2-f6b": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "20a4562d"
+      "plugin": "plugin---blog-20-a-3be"
     },
-    "sidebar": "814f3328",
-    "content": "5f547a8e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-using-flask-to-zip-and-download-files-part-25-f-5-5f4"
   },
   "/markdown-page-df8": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "c79ce0dd"
+      "plugin": "plugin---markdown-pagec-79-a24"
     },
-    "content": "393be207"
+    "content": "content---markdown-page-393-028"
   },
   "/docs-14f": {
-    "__comp": "1be78505",
+    "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "df044f99"
+      "plugin": "plugin---docsdf-0-ab2"
     },
-    "versionMetadata": "935f2afb"
+    "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/added-features/downloading-result-files-ae8": {
-    "__comp": "17896441",
-    "content": "fae4f593"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-added-features-downloading-result-filesfae-df8"
   },
   "/docs/category/added-features-a14": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "d22907e2"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-added-featuresd-22-b82"
   },
   "/docs/category/further-improvements-b01": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "005b415f"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-further-improvements-005-427"
   },
   "/docs/category/how-to-use-afms-82f": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "6a5efb79"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-how-to-use-afms-6-a-5-f88"
   },
   "/docs/category/mso-text-classification-9f9": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "075145bb"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-mso-text-classification-075-72a"
   },
   "/docs/category/quickstart-7ee": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "7c58df75"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-quickstart-7-c-5-3e0"
   },
   "/docs/category/setting-up-docker-a3a": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "5be35039"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-setting-up-docker-5-be-928"
   },
   "/docs/further-improvements/error-handling-532": {
-    "__comp": "17896441",
-    "content": "978812f1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-further-improvements-error-handling-978-03a"
   },
   "/docs/further-improvements/vulnerabilities-363": {
-    "__comp": "17896441",
-    "content": "564e452d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-further-improvements-vulnerabilities-564-2e6"
   },
   "/docs/how-to-use-afms/example-scenarios-4ee": {
-    "__comp": "17896441",
-    "content": "fe5442ee"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-how-to-use-afms-example-scenariosfe-5-cf5"
   },
   "/docs/how-to-use-afms/format-of-hub-files-7ed": {
-    "__comp": "17896441",
-    "content": "a6651138"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-how-to-use-afms-format-of-hub-filesa-66-61c"
   },
   "/docs/how-to-use-afms/format-of-supporting-files-967": {
-    "__comp": "17896441",
-    "content": "0954303a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-how-to-use-afms-format-of-supporting-files-095-b9b"
   },
   "/docs/how-to-use-afms/input-variables-cfe": {
-    "__comp": "17896441",
-    "content": "e0158a99"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-how-to-use-afms-input-variablese-01-362"
   },
   "/docs/how-to-use-afms/introduction-5dc": {
-    "__comp": "17896441",
-    "content": "f27965c6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-how-to-use-afms-introductionf-27-466"
   },
   "/docs/mso/data-extraction-840": {
-    "__comp": "17896441",
-    "content": "cf304ef7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mso-data-extractioncf-3-b95"
   },
   "/docs/mso/few-shot-081": {
-    "__comp": "17896441",
-    "content": "9ad54ab4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mso-few-shot-9-ad-fa9"
   },
   "/docs/mso/introduction-2cb": {
-    "__comp": "17896441",
-    "content": "e65fc8b8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mso-introductione-65-cd4"
   },
   "/docs/mso/model-setup-e09": {
-    "__comp": "17896441",
-    "content": "ad2d5d03"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mso-model-setupad-2-d6b"
   },
   "/docs/mso/sandbox-9ae": {
-    "__comp": "17896441",
-    "content": "49fe92e5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mso-sandbox-49-f-5df"
   },
   "/docs/mso/source-codes-626": {
-    "__comp": "17896441",
-    "content": "3ba3ea21"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mso-source-codes-3-ba-f8c"
   },
   "/docs/quickstart/background-916": {
-    "__comp": "17896441",
-    "content": "16cfd8aa"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-background-16-c-83d"
   },
   "/docs/quickstart/docker-setup-71b": {
-    "__comp": "17896441",
-    "content": "30aac325"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-docker-setup-30-a-547"
   },
   "/docs/quickstart/local-machine-setup-e05": {
-    "__comp": "17896441",
-    "content": "067beac2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-quickstart-local-machine-setup-067-bcb"
   },
   "/docs/setting-up-docker/building-docker-images-6b2": {
-    "__comp": "17896441",
-    "content": "2218251f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-docker-building-docker-images-221-4ae"
   },
   "/docs/setting-up-docker/creating-dockerfiles-448": {
-    "__comp": "17896441",
-    "content": "dbe65bc8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-docker-creating-dockerfilesdbe-795"
   },
   "/docs/setting-up-docker/deploying-containers-fc6": {
-    "__comp": "17896441",
-    "content": "10be99ec"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-docker-deploying-containers-10-b-279"
   },
   "/docs/setting-up-docker/exporting-docker-images-31e": {
-    "__comp": "17896441",
-    "content": "236992c0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-docker-exporting-docker-images-236-afd"
   },
   "/docs/setting-up-docker/pulling-from-dockerhub-fa4": {
-    "__comp": "17896441",
-    "content": "4c79f96b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-docker-pulling-from-dockerhub-4-c-7-f28"
   },
   "/docs/setting-up-docker/pushing-to-dockerhub-483": {
-    "__comp": "17896441",
-    "content": "4c9aa322"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-setting-up-docker-pushing-to-dockerhub-4-c-9-5eb"
   },
   "/-25a": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "c79ce0dd"
+      "plugin": "plugin---markdown-pagec-79-a24"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }
